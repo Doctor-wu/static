@@ -66,4 +66,22 @@ export default defineConfig({
     //   }
     // },
   ],
+  renders: [
+    {
+      name: "sponsors",
+      width: 800,
+      formats: ["svg", "png"],
+    },
+    {
+      name: "sponsors-wide",
+      width: 1000,
+      formats: ["svg"],
+    },
+    {
+      renderer: "circles",
+      name: "sponsors-circles",
+      width: 300,
+      includePastSponsors: true,
+    },
+  ],
 });
