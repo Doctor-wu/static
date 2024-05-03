@@ -1,4 +1,4 @@
-import { BadgePreset, defineConfig, presets } from "sponsorkit";
+import { BadgePreset, defineConfig, tierPresets } from "sponsorkit";
 
 const past: BadgePreset = {
   avatar: {
@@ -20,7 +20,7 @@ export default defineConfig({
     },
     {
       title: "Backers",
-      preset: presets.small,
+      preset: tierPresets.small,
     },
     {
       title: "Sponsors",
@@ -39,17 +39,17 @@ export default defineConfig({
     {
       title: "Silver Sponsors",
       monthlyDollars: 8,
-      preset: presets.medium,
+      preset: tierPresets.medium,
     },
     {
       title: "Gold Sponsors",
       monthlyDollars: 16,
-      preset: presets.large,
+      preset: tierPresets.large,
     },
     {
       title: "Platinum Sponsors",
       monthlyDollars: 32,
-      preset: presets.xl,
+      preset: tierPresets.xl,
     },
     // {
     //   title: 'Special Sponsor',
