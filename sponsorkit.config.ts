@@ -24,7 +24,7 @@ export default defineConfig({
     },
     {
       title: "Sponsors",
-      monthlyDollars: 10,
+      monthlyDollars: 8,
       preset: {
         avatar: {
           size: 42,
