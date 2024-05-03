@@ -80,8 +80,9 @@ export default defineConfig({
     {
       renderer: "circles",
       name: "sponsors-circles",
-      width: 300,
+      width: 500,
       includePastSponsors: true,
+      formats: ["svg", "png"],
     },
   ],
 });
