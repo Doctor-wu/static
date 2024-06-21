@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "sponsorkit"
+    "build": "sponsorkit --dir=."
   },
   "devDependencies": {
     "sponsorkit": "^0.14.0"
