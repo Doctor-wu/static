@@ -75,7 +75,7 @@ export default defineConfig({
     {
       name: "sponsors-wide",
       width: 1000,
-      formats: ["svg"],
+      formats: ["svg", "png"],
     },
     {
       renderer: "circles",
